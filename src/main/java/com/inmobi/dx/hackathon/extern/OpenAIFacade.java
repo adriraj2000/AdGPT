@@ -15,7 +15,7 @@ import java.util.List;
 @Component
 public class OpenAIFacade {
 
-    private static final String OPEN_AI_KEY = "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";
+    private static final String OPEN_AI_KEY = "YOUR_OPEN_AI_KEY";
 
     public List<String> generateImages(String prompt, int n) throws Exception {
         URL url = new URL("https://api.openai.com/v1/images/generations");
