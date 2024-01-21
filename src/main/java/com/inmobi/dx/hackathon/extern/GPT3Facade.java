@@ -13,7 +13,7 @@ import java.net.URL;
 public class GPT3Facade {
 
 
-    private static final String OPEN_AI_KEY = "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";
+    private static final String OPEN_AI_KEY = "KEY";
 
     public String generateContent(String prompt) throws Exception {
 //        URL url = new URL("https://api.openai.com/v1/engines/davinci/completions");
